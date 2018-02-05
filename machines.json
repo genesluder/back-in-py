@@ -1,0 +1,16 @@
+[
+    {
+        "name": "flying-circus",
+        "IP"  : "192.168.0.23",
+        "hourly_sources": [
+           "/home/monty"
+        ],
+        "daily_sources" : [
+           "/usr/local"
+        ],
+        "exclude" : [
+           "monty/.local",
+           "*.mp3"
+        ]
+    }
+]
